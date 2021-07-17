@@ -10,6 +10,7 @@ To build krustlet, you will need
 - The latest version of [just](https://github.com/casey/just)
 - openssl (Or use the [`rustls-tls`](#building-without-openssl) feature)
 - git
+- Compiler toolchain (`apt-get install build-essential` on Debian/Ubuntu, `dnf groupinstall "Development Tools"` on CentOS/RHEL)
 
 If you want to test krustlet, you will also require
 
